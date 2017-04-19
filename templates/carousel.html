@@ -1,0 +1,16 @@
+<div class="carousel">
+	<header class="carousel__title">
+		{{ properties.place|raw }}
+	</header>
+	<section class="carousel__body">
+		<a href="#" data-coords={{properties.coords}} class="carousel__link">{{ properties.address|raw }}</a>
+		<span class="carousel__comments">
+			{{ properties.comment|raw }}
+		</span>
+	</section>
+	<footer class="carousel__footer">
+		{{ properties.date|raw }}
+	</footer>
+</div>
+
+
