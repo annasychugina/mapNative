@@ -112,6 +112,8 @@ new Promise(resolve => ymaps.ready(resolve))
 		});
 	});
 
+
+
 function createMW(e, coords) {
 
 	ymaps.geocode(coords, {})
